@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-https",
+  "version": "1.0.0",
+  "description": "setting up Node.js HTTPS server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmk1111/nodejs-https.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmk1111/nodejs-https/issues"
+  },
+  "homepage": "https://github.com/dmk1111/nodejs-https#readme",
+  "dependencies": {
+    "greenlock-express": "^2.4.6",
+    "redirect-https": "^1.1.6"
+  }
+}
